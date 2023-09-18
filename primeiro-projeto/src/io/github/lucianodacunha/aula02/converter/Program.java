@@ -1,4 +1,4 @@
-package io.github.lucianodacunha.converter;
+package io.github.lucianodacunha.aula02.converter;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -25,6 +25,7 @@ public class Program {
         double celsiusTemp = input.nextDouble();
         int fahTemp = (int) converterCelsiusToFah(celsiusTemp);
         System.out.printf("Celsius: %.2f => Fahrenheit: %d", celsiusTemp, fahTemp);
+        input.close();
     }
 
     static double converterCelsiusToFah(double celsiusTemp){

@@ -1,3 +1,5 @@
+package io.github.lucianodacunha.aula02;
+
 import java.util.Locale;
 
 public class Main {
